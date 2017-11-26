@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f20 {
+  font-size: 20px;
+}
+.oh {
+  overflow: hidden;
+}
+.tc {
+  text-align: center;
+}
+.box-mid {
+  margin: 0 auto;
+}
+a {
+  color: white;
+}
+.blue {
+  background: #C8E3FF;
+}
+.top {
+  height: 40px;
+  background-color: #2E353B;
+}
+.top dl {
+  width: 1210px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+.top dl dd {
+  float: left;
+  line-height: 40px;
+  color: #9CA1A6;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.top dl dd span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 5px;
+  background: url(../images/indexBg.png) 0 -40px;
+}
+.top dl dt {
+  float: right;
+  font-size: 12px;
+  line-height: 40px;
+  color: #9CA1A6;
+  margin-left: 10px;
+}
+.top dl dt.wh {
+  color: white;
+}
+.ad {
+  height: 550px;
+  overflow: hidden;
+}
+.ad img {
+  width: 1500px;
+  display: block;
+  height: 500px;
+  margin: 0 auto;
+}
+.howtostudy {
+  height: 2000px;
+  overflow: hidden;
+}
+.howtostudy .content {
+  width: 1000px;
+  height: 940px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 2px #ccc;
+  margin: 0 auto;
+  position: relative;
+}
+.howtostudy .content .shuye {
+  display: block;
+  width: 410px;
+  height: 80px;
+}
+.howtostudy .content .how_left {
+  position: absolute;
+  top: 5px;
+  right: 1000px;
+}
+.howtostudy .content .how_right {
+  position: absolute;
+  top: 5px;
+  left: 1000px;
+}
+.howtostudy .content .title {
+  width: 840px;
+  border-bottom: 1px dashed #ccc;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #FC9000;
+}
+.howtostudy .content .no1 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 400px;
+}
+.howtostudy .content .no1 dl {
+  width: 600px;
+  margin: 0 auto;
+}
+.howtostudy .content .no1 dl dd {
+  width: 500px;
+  height: 80px;
+  margin-top: 20px;
+  float: left;
+  font-size: 24px;
+  line-height: 150%;
+}
+.howtostudy .content .no1 dl dd span {
+  color: #2A90F9;
+}
+.howtostudy .content .no1 dl dt {
+  width: 100px;
+  height: 80px;
+  margin-top: 20px;
+  float: left;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  color: #2A90F9;
+}
+.howtostudy .content .no1 dl a {
+  float: left;
+  display: block;
+  width: 200px;
+  height: 80px;
+  background-color: #4D9FF4;
+  color: white;
+  font-size: 24px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 5000px 20px 200px;
+  line-height: 80px;
+}
+.howtostudy .content .twoclass {
+  overflow: hidden;
+}
+.howtostudy .content .twoclass .two_classes {
+  width: 300px;
+  height: 180px;
+  float: left;
+  border: 1px solid #4D9FF4;
+  border-radius: 10px;
+}
+.howtostudy .content .twoclass .two_classes a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 20px 100px;
+  border-radius: 10px;
+  background-color: #4D9FF4;
+}
+.howtostudy .content .twoclass .two_classes p {
+  width: 250px;
+  margin: 0 auto;
+  line-height: 150%;
+  font-size: 14px;
+}
+.howtostudy .content .twoclass .how_two_left {
+  margin-left: 200px;
+  margin-right: 20px;
+}
+.howtostudy .content .twoclass .how_two_right {
+  margin-right: 150px;
+}
+.howtostudy .content .otherway {
+  width: 600px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.howtostudy .content .otherway a {
+  color: #4D9FF4;
+  text-decoration: underline;
+}
+.howtostudy .content .buttom {
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.howtostudy .content .buttom dd {
+  width: 500px;
+  height: 80px;
+  margin-top: 20px;
+  float: left;
+  font-size: 24px;
+  line-height: 150%;
+}
+.howtostudy .content .buttom dd .studycenter {
+  text-align: center;
+  margin-left: 20px;
+  line-height: 40px;
+  color: #2A90F9;
+}
+.howtostudy .content .buttom dd a {
+  color: #2A90F9;
+  text-decoration: underline;
+}
+.howtostudy .content .buttom dt {
+  width: 100px;
+  height: 80px;
+  margin-top: 20px;
+  float: left;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  color: #2A90F9;
+}
+.howtostudy .contentno2 {
+  width: 1000px;
+  height: 900px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 2px #ccc;
+  margin: 30px auto;
+  position: relative;
+}
+.howtostudy .contentno2 .shuye {
+  display: block;
+  width: 410px;
+  height: 80px;
+}
+.howtostudy .contentno2 .how_left {
+  position: absolute;
+  top: 5px;
+  right: 1000px;
+}
+.howtostudy .contentno2 .how_right {
+  position: absolute;
+  top: 5px;
+  left: 1000px;
+}
+.howtostudy .contentno2 .title {
+  width: 840px;
+  border-bottom: 1px dashed #ccc;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #FC9000;
+}
+.howtostudy .contentno2 ul {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.howtostudy .contentno2 ul dd {
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+.howtostudy .contentno2 ul dd span {
+  color: #4DABF5;
+}
+.footer {
+  height: 80px;
+  background-color: #252525;
+  text-align: center;
+}
+.footer a {
+  display: block;
+  height: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.fixedlang {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+}
+.fixedlang li {
+  width: 30px;
+  height: 35px;
+  background-color: #E5EAEF;
+  margin-bottom: 3px;
+}
+.fixedlang li img {
+  margin-top: 5px;
+}

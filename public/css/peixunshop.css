@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f20 {
+  font-size: 20px;
+}
+.oh {
+  overflow: hidden;
+}
+.tc {
+  text-align: center;
+}
+.box-mid {
+  margin: 0 auto;
+}
+a {
+  color: white;
+}
+.top {
+  height: 40px;
+  background-color: #2E353B;
+}
+.top dl {
+  width: 1210px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+.top dl dd {
+  float: left;
+  line-height: 40px;
+  color: #9CA1A6;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.top dl dt {
+  float: right;
+  font-size: 12px;
+  line-height: 40px;
+  color: #9CA1A6;
+  margin-left: 10px;
+}
+.top dl dt.wh {
+  color: white;
+}
+.ad {
+  width: 1210px;
+  height: 100px;
+  margin: 0 auto;
+}
+.ad .img1 {
+  float: left;
+  margin: 20px 0 0 0;
+}
+.ad input {
+  width: 300px;
+  height: 30px;
+  float: left;
+  margin: 30px 0 0 180px;
+  border-radius: 5px;
+  border: 1px solid #FEAD15;
+  padding-left: 10px;
+}
+.ad a {
+  margin: 30px 0 0 -5px;
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-color: #FEAD15;
+}
+.ad a img {
+  padding: 5px;
+}
+.ad dd {
+  float: right;
+  width: 60px;
+  height: 80px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 30px;
+  font-size: 12px;
+  background: url(../images/indexIcon05.png) no-repeat top center;
+}
+.ad dd.gwc {
+  margin-left: 50px;
+  background: url(../images/indexIcon04.png) no-repeat top center;
+}
+.ad dt {
+  float: right;
+  margin-top: 20px;
+}
+.line {
+  height: 10px;
+  background-color: #F7F7F7;
+}
+.choose {
+  height: 220px;
+  overflow: hidden;
+  background-color: white;
+}
+.choose h2 {
+  width: 1210px;
+  margin: 0 auto;
+  font-size: 17px;
+  height: 80px;
+  line-height: 80px;
+}
+.choose .lei {
+  width: 1210px;
+  margin: 0 auto;
+  height: 75px;
+}
+.choose .lei div {
+  width: 1210px;
+  height: 75px;
+  position: relative;
+}
+.choose .lei div span {
+  display: block;
+  float: left;
+  width: 75px;
+  height: 75px;
+  font-size: 16px;
+}
+.choose .lei div a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 20px;
+  float: left;
+  font-size: 14px;
+  height: 30px;
+  color: black;
+}
+.choose .lei div .show {
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: white;
+}
+.choose .lei div strong {
+  float: left;
+  margin-left: -18px;
+  cursor: pointer;
+  display: none;
+  line-height: 30px;
+}
+.choose .xin {
+  margin-top: 10px;
+}
+.choose_ti {
+  background-color: white;
+  border-top: 3px solid skyblue;
+  margin-bottom: 10px;
+}
+.shanpin {
+  width: 1210px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.shanpin .title {
+  background-color: #DEE1E6;
+  height: 50px;
+}
+.shanpin .title dl {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+.shanpin .title dl dd {
+  width: 100px;
+  float: left;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.shanpin .title dl dt {
+  float: right;
+  margin-left: 10px;
+  line-height: 50px;
+  color: black;
+}
+.shanpin .shopmain {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.shanpin .shopmain .newone {
+  box-shadow: 3px 3px 2px #ccc;
+}
+.shanpin .shopmain .new {
+  width: 240px;
+  height: 280px;
+  padding: 3px;
+  margin-bottom: 10px;
+  float: left;
+}
+.shanpin .shopmain .new:hover {
+  box-shadow: 5px 5px 5px #ccc;
+  border: 1px solid#ccc;
+}
+.shanpin .shopmain .new:hover a {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+.shanpin .shopmain .new img {
+  width: 220px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+}
+.shanpin .shopmain .new a {
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  padding-left: 10px;
+}
+.shanpin .shopmain .new dl {
+  width: 240px;
+  height: 100px;
+}
+.shanpin .shopmain .new dl dt {
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+}
+.shanpin .shopmain .new dl dd {
+  float: left;
+  padding-left: 10px;
+}
+.shanpin .shopmain .new dl dd span {
+  color: skyblue;
+}
+.footer {
+  margin-top: 30px;
+  height: 80px;
+  background-color: #252525;
+  line-height: 60px;
+  text-align: center;
+}
+.footer a {
+  display: block;
+  height: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}

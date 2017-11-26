@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f20 {
+  font-size: 20px;
+}
+.oh {
+  overflow: hidden;
+}
+.tc {
+  text-align: center;
+}
+.box-mid {
+  margin: 0 auto;
+}
+a {
+  color: white;
+}
+
+.toptop{
+  height: 80px;
+  .oh;
+  background-color: #FFFFFF;
+  box-shadow: 2px 5px 2px #ccc;
+  ul{
+    width: 1200px;
+    .box-mid;
+    height: 80px;
+    cursor: pointer;
+    img{
+      width: 140px;
+      height: 60px;
+      margin-top: 10px;
+      .fl;
+    }
+    li{
+      .fr;
+      height: 80px;
+      .f16;
+      line-height: 80px;
+      margin-left: 20px;
+      &:hover{
+        color: black;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px black;
+      }
+    }
+  }
+}
+.ad{
+  width: 1200px;
+  .box-mid;
+  .oh;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 80px;
+  img{
+    width: 1200px;
+    height: 80px;
+  }
+}
+
+.body{
+  background-color: #F1F1F1;
+  
+}
+.content{
+    width: 1200px;
+  height: 1300px;
+    .box-mid;
+    .oh;
+    .body_left{
+      width: 800px;
+     
+      .fl;
+      .new_left{ 
+        position: relative;
+        width: 800px;
+        height: 150px;
+        .fl;
+        .oh;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px #ccc;
+        margin-bottom: 10px;
+        border: 1px solid #DDD;
+        background-color: white;
+        &:hover{
+          box-shadow: 5px 5px 5px #ccc;
+          h2{
+            transform: scale(1.1);
+          }
+         
+          img{
+            transition: all 0.5s;
+            transform:rotate(360deg);
+          }
+          
+        }
+        img{
+          display: block;
+          width: 200px;
+          height: 150px;
+          .fl;
+          padding:15px;
+          transition: all 0.5s;
+        }
+        a{
+          position: absolute;
+          right: -300000px;
+          bottom: 20px;
+          width: 100px;
+          height: 30px;
+          background-color: skyblue;
+          color: white;
+          .tc;
+          line-height:30px;
+        }
+        p{
+          width: 530px;
+          height: 200px;
+          .fr;
+          .f16;
+          text-indent: 2em;
+          margin-right: 30px;
+        }
+        h2{
+          width: 530px;
+          height: 30px;
+          font-weight: bold;
+          color: black;
+          .fr;
+          margin-right: 20px;
+          margin-top: 20px;
+        }
+      }
+    }
+    .body_right{
+      width: 360px;
+      .fr;
+      .logoad{
+        width: 360px;
+        height: 300px;
+        margin-bottom: 10px;
+        background-image: url(../images/lanmu-right.jpg);
+        background-size: 100% 100%;
+      }
+      .tuijian{
+        width: 360px;
+        height: 600px;
+        .fr;
+        h2{
+          width: 360px;
+          height:40px;
+          background-color: #F8F8F8;
+          border: 1px solid #ccc;
+          line-height: 40px;
+        }
+        i{
+            float: left;
+            width: 40px;
+            height: 40px;
+            display: block;
+            border-right: 1px solid #ccc;
+            margin-right: 10px;
+            background: url(../images/2017-08-19_201929.png)no-repeat center center;
+        }
+
+      }
+      .tuijianmain{
+        .oh;
+        margin-bottom: 10px;
+        width: 360px;
+        height: 550px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 5px 3px 2px #ccc;
+        .oh;
+        li{
+          width: 340px;
+          height: 130px;
+          .box-mid;
+          position: relative;
+          border-bottom:1px dashed #ccc;
+          &:hover{
+            img{
+              transform:scale(1.1);
+            }
+            span{
+              transform: rotate(360deg);
+              transition: all 1s;
+            }
+            a{
+              color: black;
+              .f16;
+            }
+          }
+          img{
+            width: 120px;
+            height: 100px;
+            .fl;
+            margin:10px;
+
+        }
+        a{
+            display: block;
+            .fr;
+            width: 200px;
+            height: 40px;
+            .f14;
+            margin-top: 20px;
+
+        }
+        span{
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 20px;
+        }
+          
+        }
+
+      }
+      .gexingz{
+        width: 360px;
+        height: 350px;
+        background-color: white;
+        
+        box-shadow: 5px 3px 2px #ccc;
+        dl{
+          width: 360px;
+          height: 310px;
+          border: 1px solid #ccc;
+          dd{
+            width: 340px;
+            height: 50px;
+            .box-mid;
+            line-height: 50px;
+            border-bottom: 1px dashed #ccc;
+            &:hover{
+              img{
+                transform: scale(0.9) rotate(360deg);
+                transition: all 1s;
+
+              }
+              color: orangered;
+              .f14;
+            }
+            img{
+              display: block;
+              width: 30px;
+              height: 30px;  
+              .fl;
+              margin:10px 10px 0 10px;
+            }
+          }
+        }
+      }
+    }
+
+}
+.bottom{
+    .oh;
+    width: 1200px;
+    .box-mid;
+    margin-top: 20px;
+    height: 250px;
+    .ad_new{
+      width: 290px;
+      height: 200px;
+      .fl;
+      border: 1px solid #ccc;
+      .img{
+        width: 290px;
+        height: 160px;
+        background-image: url(../images/defaultpic.gif);
+        background-size: 100% 100%;
+        &.img2{
+           background-image: url(../images/3-1FH6161I5M8-lp.png);  
+        }
+        &.img3{
+           background-image: url(../images/3-1FH6155T5a9-lp.jpg);  
+        }
+        &.img4{
+           background-image: url(../images/14-1FH611064SY-lp.png);  
+        }
+         
+      }
+      a{
+        display: block;
+        .tc;
+        width: 290px;
+        height: 30px;
+      }
+      
+    }
+  }
+.footer{
+    background-color:#252525;
+    height: 80px;
+    line-height: 80px;
+    dl{
+      width: 1200px;
+      .box-mid;
+      dt{
+        .fl;
+      }
+      dd{
+        .fr;
+      }
+    }
+    
+}
